@@ -48,5 +48,11 @@ public class MathOpsTest {
 		System.out.println("substractionTest method executed..!!");
 		assertEquals(2, methOps.substract(5, 3));
 	}
+	
+	@Test
+	public void multiplyTest(){
+		System.out.println("multiple2Numbers method executed..!!");
+		assertEquals(60, methOps.multiply(20,3));
+	}
 
 }
